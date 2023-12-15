@@ -21,10 +21,10 @@ class Cat:
         self.name = name
 
     def __repr__(self):
-        return ???
+        return str(f"Cat, breed: {self.breed}, name: {self.name}")
 
     def __str__(self):
-        return ???
+        return str(f"My {self.breed} cat's name is {self.name}")
 
 
 lucy = Cat('siamese', 'Lucy')
